@@ -1,0 +1,64 @@
+# -------------------------
+# Python / Django
+# -------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environment
+env/
+venv/
+.venv/
+
+# Django settings
+.env
+.env.*
+
+# Django database
+db.sqlite3
+db.sqlite3-journal
+
+# Django media & static (generated)
+media/
+staticfiles/
+
+# Migrations (keep __init__.py)
+migrations/
+!migrations/__init__.py
+
+# Logs
+*.log
+
+# -------------------------
+# IDE / Editor
+# -------------------------
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# -------------------------
+# OS Files
+# -------------------------
+.DS_Store
+Thumbs.db
+
+# -------------------------
+# Test / Coverage
+# -------------------------
+.coverage
+htmlcov/
+.pytest_cache/
+
+# -------------------------
+# Build / Deployment
+# -------------------------
+*.egg-info/
+dist/
+build/
+
+# -------------------------
+# Secrets / Credentials
+# -------------------------
+*.pem
+*.key
